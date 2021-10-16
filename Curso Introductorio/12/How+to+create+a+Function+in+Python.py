@@ -85,6 +85,7 @@ def numeroMayor(list):
     return mayor
 
 print(numeroMayor(lista))
+
 #Create a lambda function that takes one parameter (a) and returns if it is even number or not:
 
 texto = int(input("Escriba algo"))
