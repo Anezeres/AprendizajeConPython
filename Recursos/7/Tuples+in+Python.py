@@ -26,7 +26,7 @@ year_monthes [-1]
 
 year_monthes = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", 
                 "November", "December")
-del year_monthes
+
 print (year_monthes)
 
 
@@ -77,7 +77,16 @@ print (year_monthes +(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12))
 
 
 
+#convert the following tuple into useful string:
+my_tuple = ('P','y','t','h','o','n','P','r','o','g','r','a','m','m','i','n','g')
+texto = ""
 
+print("-".join(my_tuple))
+
+for i in my_tuple:
+    texto = texto + i
+
+print(texto)
 
 # In[ ]:
 
