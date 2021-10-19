@@ -44,3 +44,5 @@ def multiplicarLista(Lista):
 
 
 print(multiplicarLista(my_list))
+
+help(__init__)
