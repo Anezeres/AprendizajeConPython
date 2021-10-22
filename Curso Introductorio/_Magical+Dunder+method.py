@@ -3,7 +3,6 @@
 
 # In[2]:
 
-
 class DataUser():
     def __init__(self, name, age):
         self.name = name
@@ -17,10 +16,15 @@ class DataUser():
 
 user_1 = DataUser('Mostafa', 16)
 user_2 = DataUser('Tamer', 36)
-     
 
+
+    
+
+#// TODO: debo Terminar de hacer esto
 
 # In[3]:
+
+print('Actualmente me cuentro en el ciclo for')
 
 
 print(user_1)
