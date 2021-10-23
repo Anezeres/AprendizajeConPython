@@ -13,7 +13,7 @@ class Productos:
         self.wind.title('Productos')
         self.wind.geometry('850x600')
         
-        frame1 = LabelFrame(self.wind, text='Informacion Del Producto', font=("Calibri",14))
+"""         frame1 = LabelFrame(self.wind, text='Informacion Del Producto', font=("Calibri",14))
         frame2 = LabelFrame(self.wind, text='Datos Del Producto', font=("Calibri",14))
 
         frame1.pack(fill="both", expand="yes", padx=20,pady=10)
@@ -152,7 +152,7 @@ class Productos:
         self.edit_wind.destroy()
         self.consulta()
 
-
+ """
         
         
 
