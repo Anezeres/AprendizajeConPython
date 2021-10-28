@@ -1,0 +1,33 @@
+---
+title: "00-Graficos"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Graficos con la funcion `plot`
+
+```{r primer_plot, fig.cap="Grafico basico explicando el uso de plot", fig.align='center'}
+x = c(1,2,3,-4,5,6,7,-8,9,10)
+y = c(7,8,9,6,2,1,4,5,6,3)
+plot(x,y)
+```
+
+Si no incorporamos el vecto `y`, `R` nos va a tomar el parametro x, como si fuese 
+el vector de datos `y`: `plot(1:n,x)`
+
+```{r segundo_plot, fig.align='center'}
+plot(2^(1:6))
+```
+
+Si queremos representar una funcion $f(x)$
+
+```{r tercer_plot, fig.align='center'}
+funcion = function(x){ sqrt(x) }
+plot(funcion)
+```
+
+
+

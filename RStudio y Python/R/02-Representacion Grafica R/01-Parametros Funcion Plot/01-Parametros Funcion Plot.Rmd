@@ -1,0 +1,19 @@
+---
+title: "01-Parametros Funcion Plot"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Parametros 
+
+```{r fig.align='center'}
+n = 1:20
+fib = (1/sqrt(5))*((1+sqrt(5))/2)^n - (1/sqrt(5))*((1-sqrt(5))/2)^n
+fib
+plot(fib,xlab ="n", ylab=expression(F[n]), main = "Sucesion de Fibonacci",
+     pch = 21, col =  "powderblue", bg = "orchid", log = "x")
+```
+
